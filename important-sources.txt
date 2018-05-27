@@ -1,0 +1,2 @@
+1. NLTK twitter guide: http://www.nltk.org/howto/twitter.html
+2. Preprocessor repo (twitter) - https://github.com/s/preprocessor
