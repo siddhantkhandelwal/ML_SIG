@@ -1,0 +1,59 @@
+name: ML_SIG
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2018.4.16=0
+  - certifi=2018.4.16=py36_0
+  - gettext=0.19.8.1=0
+  - hunspell=1.6.2=0
+  - hunspell-en=2017.09.01=0
+  - openssl=1.0.2o=0
+  - sqlite=3.13.0=1
+  - libedit=3.1.20170329=h6b74fdf_2
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=7.2.0=hdf63c60_3
+  - libstdcxx-ng=7.2.0=hdf63c60_3
+  - ncurses=6.1=hf484d3e_0
+  - pip=10.0.1=py36_0
+  - python=3.6.2=0
+  - readline=6.2=2
+  - setuptools=39.1.0=py36_0
+  - tk=8.5.18=0
+  - wheel=0.31.1=py36_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=ha838bed_2
+  - pip:
+    - alabaster==0.7.10
+    - babel==2.5.3
+    - beautifulsoup4==4.6.0
+    - bs4==0.0.1
+    - chardet==3.0.4
+    - docutils==0.14
+    - idna==2.6
+    - imagesize==1.0.0
+    - jinja2==2.10
+    - markupsafe==1.0
+    - mysql-python==1.2.5
+    - nltk==3.3
+    - olefile==0.44
+    - packaging==17.1
+    - pbr==3.1.1
+    - polib==1.1.0
+    - pygments==2.2.0
+    - pyparsing==2.2.0
+    - pytz==2017.3
+    - requests==2.18.4
+    - six==1.11.0
+    - snowballstemmer==1.2.1
+    - sphinx==1.7.4
+    - sphinx-intl==0.9.5
+    - sphinxcontrib-websupport==1.0.1
+    - stevedore==1.28.0
+    - typing==3.6.4
+    - urllib3==1.22
+    - virtualenv==15.1.0
+    - virtualenv-clone==0.2.6
+    - virtualenvwrapper==4.8.2
+prefix: /home/siddhant/anaconda3/envs/ML_SIG
+
