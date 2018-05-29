@@ -2,8 +2,13 @@
 
 1. Cleaning Tweets
     * See thought-process.txt
+    * Completed Implementation for tweet-cleaning
 
-2. Python Assignments Left:
+2. Cory Schafer Videos
+    * Have to complete the last leg of videos - 33 to 42
+
+
+3. Python Assignments Left:
     * Guess the Number! GUI Based Game.
     * Calculator GUI Based Simple Calculator.
     * 2048 A script to play 2048 game.

@@ -16,4 +16,5 @@
 * Created a conda environment with python3.6
 * Using nltk now.
 * Make a rough sketch of the requirements, their order of processing and then implement them. Helps.
+* Used Hunspell for Spell-check.
 
