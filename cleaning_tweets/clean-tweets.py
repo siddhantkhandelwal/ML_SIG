@@ -2,6 +2,7 @@
 Cleans Tweets/Texts for ML applications.
 Loads the text into memory and runs the following preprocessing tasks on the text:
 
+    removes sentiments: e.g. '::joy, ::anger'
     replaces @ mentions with **NAME**, finds occurences of the text of @ mention everywhere in the file, and replaces them with **NAME**
     removes # tags
     removes emojis, smileys, special characters
@@ -22,7 +23,6 @@ filein_name = sys.argv[1]
 output_dir_name = "cleaning-stages"
 if not os.path.exists(output_dir_name):
     os.makedirs(output_dir_name)
-
 output_dir_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), output_dir_name)
 
 class clean_tweets:
@@ -36,18 +36,20 @@ class clean_tweets:
         print("\n\nThe first 100 characters of the input file: \n%s" % self.text[:100])
         # print("\n\nNow Lower-casing text")
         # self.text = self.text.lower()        
-        self.remove_sentiments()
-        
-    def remove_sentiments(self):
-        print('Removing Sentiments.')
-        file_temp = open(os.path.join(output_dir_path, 'sentiments-removed-'+ filein_name), 'w+')
+    
+    def pattern_substitute(self, stageout_name, pattern):
+        file_temp = open(os.path.join(output_dir_path, stageout_name+filein_name), 'w+')
         for line in self.text.splitlines():
             line_temp_out = line
-            pattern =  re.compile(r':: \w+')
             line_temp_out = re.sub(pattern, '', line_temp_out)
             file_temp.write(line_temp_out + '\n')
         file_temp.seek(0)
         self.text = file_temp.read()
+        
+    def remove_sentiments(self):
+        print('Removing Sentiments.')
+        pattern =  re.compile(r':: \w+')
+        self.pattern_substitute('sentiments-removed-', pattern)
         
     def remove_at_mentions(self):
         print("Removing '@' from @mentions.")
@@ -65,15 +67,9 @@ class clean_tweets:
     
     def remove_hash_tags(self):
         print("Removing '#' from hashtags. ")
-        file_temp = open(os.path.join(output_dir_path, 'hashtags-removed-'+ filein_name), 'w+')
-        for line in self.text.splitlines():
-            line_temp_out = line
-            pattern =  re.compile(r'#')
-            line_temp_out = re.sub(pattern, '', line_temp_out)
-            file_temp.write(line_temp_out + '\n')
-        file_temp.seek(0)
-        self.text = file_temp.read()
-
+        pattern =  re.compile(r'#')
+        self.pattern_substitute('hashtags-removed-', pattern)
+        
     def remove_emoji_smileys_special(self):
         print("Removing Unicode Emojis, Smileys and Special characters.")
         file_temp = open(os.path.join(output_dir_path, 'emojis-smileys-specials-removed-'+ filein_name), 'w+')
@@ -115,7 +111,6 @@ class clean_tweets:
         file_temp = open(os.path.join(output_dir_path, 'spell-check-'+ filein_name), 'w+')
         spellchecker = hunspell.HunSpell('/usr/share/hunspell/en_US.dic',
                                  '/usr/share/hunspell/en_US.aff')
-        enc = spellchecker.get_dic_encoding()
         lines = self.text.splitlines()
         for line in lines:
             words = line.split()
@@ -136,7 +131,6 @@ class clean_tweets:
         file_temp.seek(0)
         self.text = file_temp.read()
 
-filein_name = sys.argv[1]
 if len(sys.argv) == 2:
     fileout_name = "clean-" + filein_name
 else:
@@ -146,6 +140,7 @@ fileout = open(fileout_name, 'w')
 filein_text = filein.read()
 
 ct = clean_tweets(filein_text)
+ct.remove_sentiments()
 ct.remove_at_mentions()
 ct.remove_hash_tags()
 ct.remove_emoji_smileys_special()
