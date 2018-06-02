@@ -149,7 +149,9 @@ ct.spell_check()
 
 fileout.write(ct.text)
 
+print("\n\nFirst 100 characters of the final output: %s" %ct.text[:100])
+
 filein.close()
 fileout.close()
 
-print("Done..")
+print("\n\nDone.. See %s in cwd" %fileout_name)
