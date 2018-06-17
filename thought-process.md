@@ -4,11 +4,11 @@
 ## Cory Schafer Videos
 * Had learnt Python from LPTHW, so first 20 videos were a cake-walk.
 * Installed anaconda
-* Have to complete the last leg of videos - 33 to 42
+* Completed the videos
 
 ## Python assignments
 * Assignments Given. Most of them were already available on the net. Attempted at first, then cross-checked with popular versions on  net. My implementations are not fool-proof. Incomplete - some of them.
-* Yet to attempt those involving GUI (PyQT)
+* Yet to attempt those involving GUI (tkinter). Working on the tkinter alarm app for [Python_SIG](https://github.com/siddhantkhandelwal/Python-Scripts)
 
 ## Cleaning Tweets
 * Browsed on the web, read about the topic - apparently, is a very crucial step in NLP, feels similar to making a cross on the top face of the cube.
@@ -17,4 +17,10 @@
 * Using nltk now.
 * Make a rough sketch of the requirements, their order of processing and then implement them. Helps.
 * Used Hunspell for Spell-check.
+
+## Andrew Ng ML Course (Coursera)
+* Already completed till Week 2.
+* Installed Octave.
+* Have to decide upon how will I be going ahed with the course assignments.
+  * Python or Octave?
 
