@@ -22,5 +22,5 @@
 * Already completed till Week 2.
 * Installed Octave.
 * Have to decide upon how will I be going ahed with the course assignments.
-  * Python or Octave?
-
+  * Went ahead with Python. Found a repository with python based assignments replica from the Andrew NG course. See [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
+* Doing first assignment in Python!
