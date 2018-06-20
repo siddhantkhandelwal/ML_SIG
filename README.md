@@ -1,18 +1,22 @@
 # ML Assignments Repo!
 
 1. Cleaning Tweets
-    * See thought-process.txt
-    * Completed Implementation for tweet-cleaning
+   * See thought-process.txt
+   * Completed Implementation for tweet-cleaning
 
 2. Cory Schafer Videos
-    * Have to complete the last leg of videos - 33 to 42
-
+   * Completed the videos
 
 3. Python Assignments Left:
-    * Guess the Number! GUI Based Game.
-    * Calculator GUI Based Simple Calculator.
-    * 2048 A script to play 2048 game.
-    * Emailer A command-line Emailer to log you into your Gmail account.
-    * FB Login A script log you into your Facebook account.
+   * Guess the Number! GUI Based Game.
+   * Calculator GUI Based Simple Calculator.
+   * 2048 A script to play 2048 game.
+   * Emailer A command-line Emailer to log you into your Gmail account.
+   * FB Login A script log you into your Facebook account.
 
-### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
+4. Andrew-Ng ML Course (Coursera)
+   * See [Assignments - Python Code](https://github.com/siddhantkhandelwal/ML_SIG/tree/master/andrew-ng-assignments)
+     * [Jupyter-Notebook Version with instructions](https://github.com/siddhantkhandelwal/ml-coursera-python-assignments)
+
+#### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
+#### [thought-process.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/thought-process.md)

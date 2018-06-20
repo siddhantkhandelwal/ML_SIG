@@ -12,7 +12,7 @@
 
 ## Cleaning Tweets
 * Browsed on the web, read about the topic - apparently, is a very crucial step in NLP, feels similar to making a cross on the top face of the cube.
-* Attempting the walkthrough tutorial at "https://machinelearningmastery.com/clean-text-machine-learning-python/"
+* Attempting the walkthrough [tutorial](https://machinelearningmastery.com/clean-text-machine-learning-python/)
 * Created a conda environment with python3.6
 * Using nltk now.
 * Make a rough sketch of the requirements, their order of processing and then implement them. Helps.
@@ -23,4 +23,4 @@
 * Installed Octave.
 * Have to decide upon how will I be going ahed with the course assignments.
   * Went ahead with Python. Found a repository with python based assignments replica from the Andrew NG course. See [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
-* Doing first assignment in Python!
+* Doing assignments in Python! (See [README.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/README.md) for links to solutions)
