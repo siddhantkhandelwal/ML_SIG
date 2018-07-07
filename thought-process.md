@@ -21,6 +21,10 @@
 ## Andrew Ng ML Course (Coursera)
 * Already completed till Week 2.
 * Installed Octave.
-* Have to decide upon how will I be going ahed with the course assignments.
+* Have to decide upon how will I be going ahead with the course assignments.
   * Went ahead with Python. Found a repository with python based assignments replica from the Andrew NG course. See [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
 * Doing assignments in Python! (See [README.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/README.md) for links to solutions)
+* Don't stress much on mastering numpy, pandas, matplotlib; you can learn along as well.
+
+## [deeplearning.ai](https://www.deeplearning.ai/) ML Specialisation Courses ([Coursera](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome))
+* The first in the set of courses revisits NN. Will help in getting a good grip. (Watch in 2x)

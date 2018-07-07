@@ -18,5 +18,8 @@
    * See [Assignments - Python Code](https://github.com/siddhantkhandelwal/ML_SIG/tree/master/andrew-ng-assignments)
      * [Jupyter-Notebook Version with instructions](https://github.com/siddhantkhandelwal/ml-coursera-python-assignments)
 
+5. Stock Market Prediction using Machine Learning
+   * See [Project](https://github.com/siddhantkhandelwal/Stock-Market-Prediction-Using-ML)
+   
 #### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
 #### [thought-process.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/thought-process.md)
