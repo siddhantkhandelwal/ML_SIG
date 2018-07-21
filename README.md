@@ -20,6 +20,8 @@
 
 5. Stock Market Prediction using Machine Learning
    * See [Project](https://github.com/siddhantkhandelwal/Stock-Market-Prediction-Using-ML)
-   
+
+6. [deeplearning.ai](https://www.deeplearning.ai/) ML Specialisation Course
+
 #### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
 #### [thought-process.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/thought-process.md)
