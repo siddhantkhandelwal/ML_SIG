@@ -8,6 +8,6 @@
 - [Effective Tensorflow GIT](https://github.com/vahidk/EffectiveTensorflow#get_shape)
 - [Tensorflow Tutorial - Stanford CS20SI](https://www.youtube.com/playlist?list=PLQ0sVbIj3URf94DQtGPJV629ctn2c1zN-)
 - [Tensorflow Tutorial - Hvass](https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ)
-- Tenserboard
+- Tensorboard
   - [Video](https://www.youtube.com/watch?v=eBbEDRsCmv4)
   - [Github Repo](https://github.com/mamcgrath/TensorBoard-TF-Dev-Summit-Tutorial)

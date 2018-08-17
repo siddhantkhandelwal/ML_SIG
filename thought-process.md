@@ -31,3 +31,5 @@
 * The second course, on hyperparameter tuning was fun and gave deeper insight into handling a ML Project. Introduction to Tensorflow
 * The third course taught the structuring of a ML Project.
 * The fourth course, CNNs is very interesting.
+
+## [Implementing FaceNet paper with Tensorflow](https://github.com/siddhantkhandelwal/facenet-implementation)

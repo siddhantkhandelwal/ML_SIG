@@ -22,6 +22,8 @@
    * See [Project](https://github.com/siddhantkhandelwal/Stock-Market-Prediction-Using-ML)
 
 6. [deeplearning.ai](https://www.deeplearning.ai/) ML Specialisation Course
+   * Have put the NLP course on hold.
+   * Will resume after implementing the FaceNet.
 
 #### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
 #### [thought-process.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/thought-process.md)
