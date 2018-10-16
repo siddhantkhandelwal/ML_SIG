@@ -24,6 +24,7 @@
 6. [deeplearning.ai](https://www.deeplearning.ai/) ML Specialisation Course
    * Have put the NLP course on hold.
    * Will resume after implementing the FaceNet.
+   * Decided to drop the FaceNet implementation for now. Will resume with it after finishing off other projects.
 
 #### [important-sources.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/important-sources.md)
 #### [thought-process.md](https://github.com/siddhantkhandelwal/ML_SIG/blob/master/thought-process.md)
